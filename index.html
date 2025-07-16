@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yazılım Projesi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar light-theme">
+    <div class="brand">TekTıkla</div>
+    <ul class="menu">
+      <li><a href="#">Anasayfa</a></li>
+      <li><a href="#">Hakkında</a></li>
+      <li><a href="#">Ürünler</a></li>
+    </ul>
+    <div class="search-area">
+      <input type="text" placeholder="Arama...">
+      <button>Arama</button>
+      <select id="themeSelector">
+        <option value="light">Açık</option>
+        <option value="dark">Koyu</option>
+        <option value="blue">Mavi</option>
+      </select>
+    </div>
+  </nav>
+
+  <!-- Profile Card -->
+  <section class="profile-card">
+    <div class="cover"></div>
+    <img class="profile-img" src="emre.jpg" alt="Profile">
+    <h2>Emre Can ALPDOĞAN</h2>
+    <p>DEVELOPER</p>
+    <div class="social-links">
+      <a href="#"><img src="facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+      <a href="#"><img src="instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="youtube.png" alt="YouTube"></a>
+    </div>
+    <div class="buttons">
+      <button class="subscribe">Abone Ol</button>
+      <button class="message">Mesaj Gönder</button>
+    </div>
+    <div class="stats">
+      <div>183.4k</div>
+      <div>199.1k</div>
+      <div>134.4k</div>
+    </div>
+  </section>
+
+  <!-- Card Grid -->
+  <section class="card-grid">
+    <div class="card">
+      <img src="1.png" alt="Item">
+      <h3>Samsung</h3>
+      <p> Galaxy Watch 7</p>
+      <span>6000₺</span>
+    </div>
+    <div class="card">
+      <img src="2.png" alt="Item">
+      <h3>Xaomi</h3>
+      <p>Watch 5 Active </p>
+      <span>2000₺</span>
+    </div>
+    <div class="card">
+      <img src="3.png" alt="Item">
+      <h3>Huawei</h3>
+      <p>Watch GT 5 Pro 46MM Titanyum</p>
+      <span>12000₺</span>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
